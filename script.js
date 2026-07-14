@@ -7,6 +7,33 @@ const translations = {
     "nav.platform": "技术平台",
     "nav.solutions": "应用方案",
     "nav.cases": "市场案例",
+    "nav.p.akk": "AKM Lab-01 AKK 菌",
+    "nav.p.tengcha": "藤茶提取物",
+    "nav.p.enzyme": "高性能酶开发",
+    "nav.p.wujitai": "乌鸡肽",
+    "nav.p.qingqianliu": "青钱柳叶多酚",
+    "nav.p.jinhua": "金花黑茶提取物",
+    "products.more": "了解详情",
+    "enzyme.pain.kicker": "Pain Points",
+    "enzyme.pain.title": "传统酶开发的三大瓶颈",
+    "enzyme.pain1.title": "突变低效",
+    "enzyme.pain1.text": "体外单点突变深度有限，难以精准定制功能区域。",
+    "enzyme.pain2.title": "筛选缓慢",
+    "enzyme.pain2.text": "通量低、周期长达 4–6 个月，有效数据不足。",
+    "enzyme.pain3.title": "AI 脱节",
+    "enzyme.pain3.text": "缺基因型—表型闭环，干湿实验难以高速自进化。",
+    "enzyme.cases.kicker": "Validated Cases",
+    "enzyme.cases.title": "可量化的定向进化案例",
+    "enzyme.case1.num": "~3×",
+    "enzyme.case1.label": "PETase 酶活提升",
+    "enzyme.case2.num": "~5×",
+    "enzyme.case2.label": "HpaB 单轮活性提升",
+    "enzyme.case3.num": "~7×",
+    "enzyme.case3.label": "甲基转移酶 kcat/Km",
+    "enzyme.case4.num": "1–2 月",
+    "enzyme.case4.label": "优化周期可压缩至",
+    "enzyme.cta": "查看酶平台详情",
+    "enzyme.platform.note": "联合智演生合 SMALT + AI 进化加速器（SSA），把酶开发做成可计算、可迭代、可放大的工程服务。",
     "hero.eyebrow": "天颐健康科技有限公司",
     "hero.title": "科技功能食品与生物制造解决方案平台",
     "hero.lead": "以AI+合成生物为根基，融合高性能酶开发、微生态技术与应用验证能力",
@@ -63,7 +90,7 @@ const translations = {
     "products.card4.text": "以泰和乌鸡为原料，通过生物酶解工艺获取小分子活性肽，规格化制备，适配功能性食品、营养支持与口服美容产品。",
     "products.card4.direction": "滋补焕新、营养支持、口服美容",
     "products.card5.tag": "植物胰岛素",
-    "products.card5.title": "金钱柳叶多酚",
+    "products.card5.title": "青钱柳叶多酚",
     "products.card5.text": "核心成分为多酚与有机硒，多酚含量达 25%，用于血糖管理、血脂调节与胰岛功能保护，是三高调理方向的关键原料。",
     "products.card5.direction": "血糖管理、血脂调节、胰岛保护",
     "products.card6.tag": "黄金代谢因子",
@@ -87,7 +114,7 @@ const translations = {
     "solutions.kicker": "Application Solutions",
     "solutions.title": "多场景应用解决方案",
     "solutions.card1.title": "三高调理",
-    "solutions.card1.text": "金钱柳叶多酚与金花黑茶提取物协同，针对血糖、血脂、胆固醇三大代谢指标构建糖脂双降方案，适配功能性食品与营养补充剂。",
+    "solutions.card1.text": "青钱柳叶多酚与金花黑茶提取物协同，针对血糖、血脂、胆固醇三大代谢指标构建糖脂双降方案，适配功能性食品与营养补充剂。",
     "solutions.card2.title": "护肝解酒",
     "solutions.card2.text": "藤茶提取物增强 ADH 与 ALDH 活性，加速酒精代谢；藤茶二氢杨梅素与多酚协同抗氧化，适合护肝解酒、应酬场景与日常滋补。",
     "solutions.card3.title": "体重管理",
@@ -111,8 +138,10 @@ const translations = {
     "footer.title": "商务合作",
     "footer.role1": "国内负责人",
     "footer.role2": "国外负责人",
+    "footer.role3": "公司总机",
     "footer.name1": "王先生",
     "footer.name2": "胡先生",
+    "footer.name3": "020-38828529",
     "footer.address": "地址",
     "footer.copyright": "© 2026 广州天颐健康科技有限公司. 保留所有权利.",
     "platform.kicker": "Technology Platform",
@@ -145,7 +174,7 @@ const translations = {
     "enzyme.step4.title": "表达制备验证",
     "enzyme.step4.text": "建立表达体系和发酵制备路径，完成制剂稳定性与成本可行性验证。",
     "enzyme.step5.title": "应用场景验证",
-    "enzyme.step5.text": "在食品、农业、医药或工业真实场景中验证实际效果和商业化可行性。"
+    "enzyme.step5.text": "在食品、医药或工业真实场景中验证实际效果和商业化可行性。"
   },
   en: {
     "brand.name": "Tianyi Health Tech",
@@ -155,6 +184,33 @@ const translations = {
     "nav.platform": "Platform",
     "nav.solutions": "Solutions",
     "nav.cases": "Cases",
+    "nav.p.akk": "AKM Lab-01 AKK",
+    "nav.p.tengcha": "Vine Tea Extract",
+    "nav.p.enzyme": "Enzyme Development",
+    "nav.p.wujitai": "Black-Bone Chicken Peptide",
+    "nav.p.qingqianliu": "Cyclocarya Polyphenols",
+    "nav.p.jinhua": "Golden Dark Tea Extract",
+    "products.more": "Learn more",
+    "enzyme.pain.kicker": "Pain Points",
+    "enzyme.pain.title": "Three bottlenecks in traditional enzyme development",
+    "enzyme.pain1.title": "Inefficient mutation",
+    "enzyme.pain1.text": "Shallow in-vitro single-site mutation with limited regional control.",
+    "enzyme.pain2.title": "Slow screening",
+    "enzyme.pain2.text": "Low throughput, 4–6 month cycles, and scarce high-quality data.",
+    "enzyme.pain3.title": "AI disconnect",
+    "enzyme.pain3.text": "Missing genotype–phenotype loops for rapid wet–dry co-evolution.",
+    "enzyme.cases.kicker": "Validated Cases",
+    "enzyme.cases.title": "Quantified directed-evolution outcomes",
+    "enzyme.case1.num": "~3×",
+    "enzyme.case1.label": "PETase activity gain",
+    "enzyme.case2.num": "~5×",
+    "enzyme.case2.label": "HpaB single-round gain",
+    "enzyme.case3.num": "~7×",
+    "enzyme.case3.label": "Methyltransferase kcat/Km",
+    "enzyme.case4.num": "1–2 mo",
+    "enzyme.case4.label": "Optimization cycle target",
+    "enzyme.cta": "View enzyme platform",
+    "enzyme.platform.note": "With Avolution’s SMALT + AI evolutionary accelerator (SSA), enzyme development becomes computable, iterable and scalable.",
     "hero.eyebrow": "Tianyi Health Technology Co., Ltd.",
     "hero.title": "A Leader in Science-Backed Functional Food Ingredients",
     "hero.lead": "Rooted in AI + synthetic biology, integrating high-performance enzyme development, microbiome technology, and application validation capabilities",
@@ -211,7 +267,7 @@ const translations = {
     "products.card4.text": "Sourced from Taihe black-bone chicken, processed through bio-enzymatic hydrolysis to obtain small-molecule bioactive peptides; standardized for functional foods, nutritional support, and oral beauty products.",
     "products.card4.direction": "Nourishing renewal, nutritional support, oral beauty",
     "products.card5.tag": "Plant Insulin",
-    "products.card5.title": "Cyclocarya paliurus Polyphenols",
+    "products.card5.title": "Cyclocarya Leaf Polyphenols",
     "products.card5.text": "Powered by polyphenols and organic selenium, with 25% polyphenol content. A key ingredient for glucose, lipid, and pancreatic support in metabolic balance programs.",
     "products.card5.direction": "Glucose management, lipid regulation, pancreatic protection",
     "products.card6.tag": "Golden Metabolic Factor",
@@ -258,8 +314,10 @@ const translations = {
     "footer.title": "Business Partnership",
     "footer.role1": "Domestic Director",
     "footer.role2": "International Director",
+    "footer.role3": "Landline",
     "footer.name1": "Mr. Wang",
     "footer.name2": "Mr. Hu",
+    "footer.name3": "020-38828529",
     "footer.address": "Address",
     "footer.copyright": "© 2026 Guangzhou Tianyi Health Technology Co., Ltd. All rights reserved.",
     "platform.kicker": "Technology Platform",
@@ -292,12 +350,20 @@ const translations = {
     "enzyme.step4.title": "Validate Expression & Preparation",
     "enzyme.step4.text": "Build expression and fermentation routes while validating formulation stability and cost feasibility.",
     "enzyme.step5.title": "Validate Application Scenarios",
-    "enzyme.step5.text": "Test real-world performance and commercialization feasibility in food, agriculture, pharma, or industrial scenarios."
+    "enzyme.step5.text": "Test real-world performance and commercialization feasibility in food, pharma, or industrial scenarios."
   }
 };
 
+// Merge per-page translations (product detail pages)
+if (window.PAGE_TRANSLATIONS) {
+  ["zh", "en"].forEach((lang) => {
+    Object.assign(translations[lang], window.PAGE_TRANSLATIONS[lang] || {});
+  });
+}
+
 const langToggle = document.querySelector("[data-lang-toggle]");
 const i18nNodes = document.querySelectorAll("[data-i18n]");
+const i18nContentNodes = document.querySelectorAll("[data-i18n-content]");
 
 function applyLanguage(lang) {
   const language = translations[lang] ? lang : "zh";
@@ -307,6 +373,11 @@ function applyLanguage(lang) {
     const key = node.dataset.i18n;
     const val = translations[language][key];
     if (val !== undefined) node.textContent = val;
+  });
+  i18nContentNodes.forEach((node) => {
+    const key = node.dataset.i18nContent;
+    const val = translations[language][key];
+    if (val !== undefined) node.setAttribute("content", val);
   });
   if (langToggle) langToggle.textContent = language === "zh" ? "EN" : "中";
 }
@@ -351,6 +422,36 @@ if (langToggle) {
     applyLanguage(next);
   });
 }
+
+// ── Nav product dropdown (mobile tap / desktop hover via CSS) ──
+(function () {
+  const items = document.querySelectorAll(".nav-item.has-dropdown");
+  if (!items.length) return;
+
+  items.forEach((item) => {
+    const parent = item.querySelector(".nav-parent");
+    if (!parent) return;
+    parent.addEventListener("click", (e) => {
+      // 窄屏：首次点击展开二级，不再立刻跳转
+      if (window.matchMedia("(max-width: 1120px)").matches) {
+        if (!item.classList.contains("open")) {
+          e.preventDefault();
+          items.forEach((other) => {
+            if (other !== item) other.classList.remove("open");
+          });
+          item.classList.add("open");
+        }
+        // 已展开时再点父级，允许跳转到产品矩阵锚点
+      }
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    items.forEach((item) => {
+      if (!item.contains(e.target)) item.classList.remove("open");
+    });
+  });
+})();
 
 // ── Hero Carousel ──
 (function () {

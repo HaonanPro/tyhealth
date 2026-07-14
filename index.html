@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>天颐健康科技 - 科技功能食品与生物制造解决方案平台</title>
   <meta name="description" content="天颐健康科技以AI+合成生物为根基，融合高性能酶开发、微生态技术、生物制造与应用验证能力，提供功能食品、营养健康、健康管理、医药与工业解决方案。">
-  <meta name="keywords" content="天颐健康科技,药食同源,功能原料,功能食品,AI合成生物,合成生物,高性能酶开发,酶工程,生物制造,微生物与生物制造,食品酶,工业酶,日化酶,藤茶,藤茶提取物,二氢杨梅素,金花黑茶,金花黑茶提取物,金钱柳,金钱柳叶多酚,青钱柳,乌鸡肽,乌鸡,AKK菌,二代益生菌,代谢健康,三高调理,护肝解酒,体重管理">
+  <meta name="keywords" content="天颐健康科技,药食同源,功能原料,功能食品,AI合成生物,合成生物,高性能酶开发,酶工程,生物制造,微生物与生物制造,食品酶,工业酶,日化酶,藤茶,藤茶提取物,二氢杨梅素,金花黑茶,金花黑茶提取物,青钱柳,青钱柳叶多酚,乌鸡肽,乌鸡,AKK菌,二代益生菌,代谢健康,三高调理,护肝解酒,体重管理">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.tyhealthtech.com/">
   <meta property="og:title" content="天颐健康科技 - 科技功能食品与生物制造解决方案平台">
@@ -41,6 +41,14 @@
         "contactOption": "TollFree",
         "areaServed": "CN",
         "availableLanguage": ["Chinese", "English"]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+86-20-38828529",
+        "contactType": "customer service",
+        "contactOption": "TollFree",
+        "areaServed": "CN",
+        "availableLanguage": ["Chinese", "English"]
       }
     ]
   }
@@ -54,7 +62,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260609">
+  <link rel="stylesheet" href="styles.css?v=20260714b"></link>
 </head>
 <body data-lang="zh">
   <header class="site-header">
@@ -64,7 +72,17 @@
     </a>
     <nav class="nav">
       <a href="#about" data-i18n="nav.about">企业介绍</a>
-      <a href="#products" data-i18n="nav.products">产品矩阵</a>
+      <div class="nav-item has-dropdown">
+        <a href="#products" data-i18n="nav.products" class="nav-parent" aria-haspopup="true">产品矩阵</a>
+        <div class="nav-dropdown" role="menu">
+          <a href="products/akk.html" role="menuitem" data-i18n="nav.p.akk">AKM Lab-01 AKK 菌</a>
+          <a href="products/tengcha.html" role="menuitem" data-i18n="nav.p.tengcha">藤茶提取物</a>
+          <a href="products/enzyme.html" role="menuitem" data-i18n="nav.p.enzyme">高性能酶开发</a>
+          <a href="products/wujitai.html" role="menuitem" data-i18n="nav.p.wujitai">乌鸡肽</a>
+          <a href="products/qingqianliu.html" role="menuitem" data-i18n="nav.p.qingqianliu">青钱柳叶多酚</a>
+          <a href="products/jinhuahongcha.html" role="menuitem" data-i18n="nav.p.jinhua">金花黑茶提取物</a>
+        </div>
+      </div>
       <a href="#science" data-i18n="nav.science">科研实力</a>
       <a href="#platform" data-i18n="nav.platform">技术平台</a>
       <a href="#solutions" data-i18n="nav.solutions">应用方案</a>
@@ -79,12 +97,12 @@
     <!-- ① HERO -->
     <section class="hero" id="hero">
       <div class="hero-carousel" aria-hidden="true">
-        <div class="hero-slide active" style="background-image:url('assets/AKK.png?v=20260613')"></div>
-        <div class="hero-slide" style="background-image:url('assets/hero-tengcha-product.jpg?v=20260609b')"></div>
-        <div class="hero-slide" style="background-image:url('assets/hero-slide-p04.jpg?v=20260609b')"></div>
-        <div class="hero-slide" style="background-image:url('assets/hero-wujitai.jpg?v=20260609b')"></div>
-        <div class="hero-slide" style="background-image:url('assets/hero-slide-p31.jpg?v=20260609b')"></div>
-        <div class="hero-slide" style="background-image:url('assets/p13_01.jpeg?v=20260609b')"></div>
+        <div class="hero-slide active" style="background-image:url('assets/AKK.webp?v=20260613')" fetchpriority="high"></div>
+        <div class="hero-slide" style="background-image:url('assets/hero-tengcha-product.webp?v=20260613')"></div>
+        <div class="hero-slide" style="background-image:url('assets/hero-slide-p04.webp?v=20260613')"></div>
+        <div class="hero-slide" style="background-image:url('assets/hero-wujitai.webp?v=20260613')"></div>
+        <div class="hero-slide" style="background-image:url('assets/hero-slide-p31.webp?v=20260613')"></div>
+        <div class="hero-slide" style="background-image:url('assets/p13_01.webp?v=20260613')"></div>
       </div>
       <div class="hero-dots">
         <button class="hero-dot active" data-index="0" aria-label="第1张"></button>
@@ -148,7 +166,7 @@
     <!-- ③ SCIENCE / DATA -->
     <section class="data-band" id="science">
       <div class="data-image">
-        <img src="assets/page_06.png" alt="核心数据展示">
+        <img src="assets/page_06.webp?v=20260613" alt="核心数据展示" width="800" height="450" loading="lazy">
         <div class="data-image-badge">
           <span data-i18n="science.badge.label">国家级科研认证</span>
         </div>
@@ -196,58 +214,76 @@
       </div>
       <div class="product-grid">
         <article class="product-card">
-          <img class="contain-image" src="assets/AKK.png" alt="AKK 菌益生菌" loading="lazy">
+          <a href="products/akk.html" class="product-card-link">
+          <img src="assets/AKK.webp?v=20260613" alt="AKK 菌益生菌" width="400" height="300" loading="lazy">
           <span class="tag" data-i18n="products.card1.tag">二代益生菌标杆</span>
           <h3 data-i18n="products.card1.title">AKM Lab-01 AKK 菌</h3>
           <p data-i18n="products.card1.text">来源于慕恩生物，核心成分 Amuc_1100 蛋白，规格达万亿级 CFU，17 项相关专利支撑，覆盖减重、抗衰、睡眠与免疫调节。</p>
+          </a>
           <dl>
             <div><dt data-i18n="products.direction">核心方向</dt><dd data-i18n="products.card1.direction">减重管理、抗衰老、睡眠、免疫调节</dd></div>
           </dl>
+          <a class="card-link" href="products/akk.html" data-i18n="products.more">了解详情</a>
         </article>
         <article class="product-card">
-          <img src="assets/hero-tengcha-product.jpg" alt="藤茶提取物" loading="lazy">
+          <a href="products/tengcha.html" class="product-card-link">
+          <img src="assets/hero-tengcha-product.webp?v=20260613" alt="藤茶提取物" width="400" height="300" loading="lazy">
           <span class="tag" data-i18n="products.card2.tag">黄酮之王</span>
           <h3 data-i18n="products.card2.title">藤茶提取物</h3>
           <p data-i18n="products.card2.text">来源于显齿蛇葡萄叶，核心成分二氢杨梅素 DMY，黄酮含量达 45%，具备新食品原料资质，护肝解酒与抗氧化方向核心原料。</p>
+          </a>
           <dl>
             <div><dt data-i18n="products.direction">核心方向</dt><dd data-i18n="products.card2.direction">抗氧化、护肝解酒、尿酸管理、神经保护</dd></div>
           </dl>
+          <a class="card-link" href="products/tengcha.html" data-i18n="products.more">了解详情</a>
         </article>
         <article class="product-card">
-          <img class="contain-image" src="assets/p04_03.jpeg" alt="高性能酶开发" loading="lazy">
+          <a href="products/enzyme.html" class="product-card-link">
+          <img class="contain-image" src="assets/p04_03.webp?v=20260613" alt="高性能酶开发" width="400" height="300" loading="lazy">
           <span class="tag" data-i18n="products.card3.tag">技术平台</span>
           <h3 data-i18n="products.card3.title">高性能酶开发</h3>
           <p data-i18n="products.card3.text">联合智演生合，围绕食品、医药与工业真实场景，提供从酶筛选、分子优化、表达制备到应用验证的一站式开发服务。</p>
+          </a>
           <dl>
             <div><dt data-i18n="products.direction">核心方向</dt><dd data-i18n="products.card3.direction">酶分子优化、表达效率、制剂稳定性、应用验证</dd></div>
           </dl>
+          <a class="card-link" href="products/enzyme.html" data-i18n="products.more">了解详情</a>
         </article>
         <article class="product-card">
-          <img src="assets/hero-wujitai.jpg" alt="乌鸡肽" loading="lazy">
+          <a href="products/wujitai.html" class="product-card-link">
+          <img src="assets/hero-wujitai.webp?v=20260613" alt="乌鸡肽" width="400" height="300" loading="lazy">
           <span class="tag" data-i18n="products.card4.tag">滋补焕新</span>
           <h3 data-i18n="products.card4.title">乌鸡肽</h3>
           <p data-i18n="products.card4.text">以泰和乌鸡为原料，通过生物酶解工艺获取小分子活性肽，规格化制备，适配功能性食品、营养支持与口服美容产品。</p>
+          </a>
           <dl>
             <div><dt data-i18n="products.direction">核心方向</dt><dd data-i18n="products.card4.direction">滋补焕新、营养支持、口服美容</dd></div>
           </dl>
+          <a class="card-link" href="products/wujitai.html" data-i18n="products.more">了解详情</a>
         </article>
         <article class="product-card">
-          <img src="assets/p31_03.jpeg" alt="金钱柳叶多酚" loading="lazy">
+          <a href="products/qingqianliu.html" class="product-card-link">
+          <img src="assets/p31_03.webp?v=20260613" alt="青钱柳叶多酚" width="400" height="300" loading="lazy">
           <span class="tag" data-i18n="products.card5.tag">植物胰岛素</span>
-          <h3 data-i18n="products.card5.title">金钱柳叶多酚</h3>
+          <h3 data-i18n="products.card5.title">青钱柳叶多酚</h3>
           <p data-i18n="products.card5.text">核心成分为多酚与有机硒，多酚含量达 25%，用于血糖管理、血脂调节与胰岛功能保护，是三高调理方向的关键原料。</p>
+          </a>
           <dl>
             <div><dt data-i18n="products.direction">核心方向</dt><dd data-i18n="products.card5.direction">血糖管理、血脂调节、胰岛保护</dd></div>
           </dl>
+          <a class="card-link" href="products/qingqianliu.html" data-i18n="products.more">了解详情</a>
         </article>
         <article class="product-card">
-          <img src="assets/p13_01.jpeg" alt="金花黑茶提取物" loading="lazy">
+          <a href="products/jinhuahongcha.html" class="product-card-link">
+          <img src="assets/p13_01.webp?v=20260613" alt="金花黑茶提取物" width="400" height="300" loading="lazy">
           <span class="tag" data-i18n="products.card6.tag">黄金代谢因子</span>
           <h3 data-i18n="products.card6.title">金花黑茶提取物</h3>
           <p data-i18n="products.card6.text">来源于安化黑茶，采用冠突散囊菌发酵技术，结合发酵与生物转化能力，面向靶向减脂、三高调理和肠道健康。</p>
+          </a>
           <dl>
             <div><dt data-i18n="products.direction">核心方向</dt><dd data-i18n="products.card6.direction">靶向减脂、三高调理、肠道健康</dd></div>
           </dl>
+          <a class="card-link" href="products/jinhuahongcha.html" data-i18n="products.more">了解详情</a>
         </article>
       </div>
     </section>
@@ -273,13 +309,13 @@
       <div class="expert-list">
         <article>
           <span>01</span>
-          <img class="expert-avatar" src="assets/expert-liusuchun.jpg" alt="刘素纯教授">
+          <img class="expert-avatar" src="assets/expert-liusuchun.webp?v=20260613" alt="刘素纯教授" loading="lazy">
           <h3 data-i18n="experts.card1.title">刘素纯教授</h3>
           <p data-i18n="experts.card1.text">首席创始人科学家，国家规划教材《生物信息学》主编，具备科研与产业转化经验。</p>
         </article>
         <article>
           <span>02</span>
-          <img class="expert-avatar" src="assets/expert-zhangyousheng.jpg" alt="张友胜博士">
+          <img class="expert-avatar" src="assets/expert-zhangyousheng.webp?v=20260613" alt="张友胜博士" loading="lazy">
           <h3 data-i18n="experts.card2.title">张友胜博士</h3>
           <p data-i18n="experts.card2.text">中国藤茶现代化研究奠基人，为藤茶提取物研发提供关键技术支撑。</p>
         </article>
@@ -335,13 +371,55 @@
         <p class="section-kicker" data-i18n="enzyme.kicker">Enzyme Development</p>
         <h2 data-i18n="enzyme.title">高性能酶开发与产品解决方案</h2>
         <p data-i18n="enzyme.text">客户需要的往往不是单一酶产品，而是在真实配方、工艺和成本约束下可被验证的应用结果。天颐联合智演生合，围绕活性、稳定性、pH 适应性、底物谱、表达效率和制剂稳定性等关键指标，提供从候选酶筛选、分子优化、表达制备到应用验证的一站式解决方案。</p>
+        <p class="enzyme-note" data-i18n="enzyme.platform.note">联合智演生合 SMALT + AI 进化加速器（SSA），把酶开发做成可计算、可迭代、可放大的工程服务。</p>
+      </div>
+      <div>
+        <p class="section-kicker" data-i18n="enzyme.pain.kicker">Pain Points</p>
+        <h3 style="margin-bottom:16px" data-i18n="enzyme.pain.title">传统酶开发的三大瓶颈</h3>
+        <div class="enzyme-pain">
+          <article>
+            <h3 data-i18n="enzyme.pain1.title">突变低效</h3>
+            <p data-i18n="enzyme.pain1.text">体外单点突变深度有限，难以精准定制功能区域。</p>
+          </article>
+          <article>
+            <h3 data-i18n="enzyme.pain2.title">筛选缓慢</h3>
+            <p data-i18n="enzyme.pain2.text">通量低、周期长达 4–6 个月，有效数据不足。</p>
+          </article>
+          <article>
+            <h3 data-i18n="enzyme.pain3.title">AI 脱节</h3>
+            <p data-i18n="enzyme.pain3.text">缺基因型—表型闭环，干湿实验难以高速自进化。</p>
+          </article>
+        </div>
+        <p class="section-kicker" data-i18n="enzyme.cases.kicker">Validated Cases</p>
+        <h3 style="margin-bottom:16px" data-i18n="enzyme.cases.title">可量化的定向进化案例</h3>
+        <div class="enzyme-cases">
+          <article>
+            <strong data-i18n="enzyme.case1.num">~3×</strong>
+            <p data-i18n="enzyme.case1.label">PETase 酶活提升</p>
+          </article>
+          <article>
+            <strong data-i18n="enzyme.case2.num">~5×</strong>
+            <p data-i18n="enzyme.case2.label">HpaB 单轮活性提升</p>
+          </article>
+          <article>
+            <strong data-i18n="enzyme.case3.num">~7×</strong>
+            <p data-i18n="enzyme.case3.label">甲基转移酶 kcat/Km</p>
+          </article>
+          <article>
+            <strong data-i18n="enzyme.case4.num">1–2 月</strong>
+            <p data-i18n="enzyme.case4.label">优化周期可压缩至</p>
+          </article>
+        </div>
       </div>
       <div class="enzyme-flow">
         <article><span>01</span><h3 data-i18n="enzyme.step1.title">明确应用目标</h3><p data-i18n="enzyme.step1.text">明确目标反应、底物、产物、配方环境、工艺条件和成本边界。</p></article>
         <article><span>02</span><h3 data-i18n="enzyme.step2.title">候选酶筛选</h3><p data-i18n="enzyme.step2.text">结合序列、结构、功能和数据库资源，筛选具备产业潜力的候选酶。</p></article>
         <article><span>03</span><h3 data-i18n="enzyme.step3.title">分子优化设计</h3><p data-i18n="enzyme.step3.text">围绕酶活、热稳定性、pH 适应性、底物谱和表达效率进行优化。</p></article>
         <article><span>04</span><h3 data-i18n="enzyme.step4.title">表达制备验证</h3><p data-i18n="enzyme.step4.text">建立表达体系和发酵制备路径，完成制剂稳定性与成本可行性验证。</p></article>
-        <article><span>05</span><h3 data-i18n="enzyme.step5.title">应用场景验证</h3><p data-i18n="enzyme.step5.text">在食品、农业、医药或工业真实场景中验证实际效果和商业化可行性。</p></article>
+        <article><span>05</span><h3 data-i18n="enzyme.step5.title">应用场景验证</h3><p data-i18n="enzyme.step5.text">在食品、医药或工业真实场景中验证实际效果和商业化可行性。</p></article>
+      </div>
+      <div class="enzyme-actions">
+        <a class="primary-btn" href="products/enzyme.html" data-i18n="enzyme.cta">查看酶平台详情</a>
       </div>
     </section>
 
@@ -354,7 +432,7 @@
         </div>
       </div>
       <div class="solution-grid">
-        <article><h3 data-i18n="solutions.card1.title">三高调理</h3><p data-i18n="solutions.card1.text">金钱柳叶多酚与金花黑茶提取物协同，针对血糖、血脂、胆固醇三大代谢指标构建糖脂双降方案，适配功能性食品与营养补充剂。</p></article>
+        <article><h3 data-i18n="solutions.card1.title">三高调理</h3><p data-i18n="solutions.card1.text">青钱柳叶多酚与金花黑茶提取物协同，针对血糖、血脂、胆固醇三大代谢指标构建糖脂双降方案，适配功能性食品与营养补充剂。</p></article>
         <article><h3 data-i18n="solutions.card2.title">护肝解酒</h3><p data-i18n="solutions.card2.text">藤茶提取物增强 ADH 与 ALDH 活性，加速酒精代谢；藤茶二氢杨梅素与多酚协同抗氧化，适合护肝解酒、应酬场景与日常滋补。</p></article>
         <article><h3 data-i18n="solutions.card3.title">体重管理</h3><p data-i18n="solutions.card3.text">AKK 菌（AKM Lab-01）联合金花黑茶提取物，从肠道微生态、代谢激活、内脏脂肪三个方向切入减重产品开发与减重后管理。</p></article>
         <article><h3 data-i18n="solutions.card4.title">食品酶应用</h3><p data-i18n="solutions.card4.text">面向食品加工、植物蛋白改良、风味改善、食品安全与保鲜，提供食品酶工程、生物转化和功能成分释放方案。</p></article>
@@ -373,17 +451,17 @@
       </div>
       <div class="case-grid">
         <article>
-          <img src="assets/p30_03.jpeg" alt="临床实验室">
+          <img src="assets/p30_03.webp?v=20260613" alt="临床实验室" width="400" height="280" loading="lazy">
           <h3 data-i18n="cases.card1.title">北大医疗抗高血脂症临床</h3>
           <p data-i18n="cases.card1.text">AKM Lab-01 AKK 菌开展抗高血脂症临床试验，试验编号 NCT06974266。</p>
         </article>
         <article>
-          <img src="assets/p30_04.jpeg" alt="科研实验室">
+          <img src="assets/p30_04.webp?v=20260613" alt="科研实验室" width="400" height="280" loading="lazy">
           <h3 data-i18n="cases.card2.title">广州开发区医院减重临床</h3>
           <p data-i18n="cases.card2.text">围绕 AKM Lab-01 AKK 菌开展减重临床试验，试验编号 NCT07331974。</p>
         </article>
         <article>
-          <img src="assets/p31_03.jpeg" alt="青钱柳产品案例">
+          <img src="assets/p31_03.webp?v=20260613" alt="青钱柳产品案例" width="400" height="280" loading="lazy">
           <h3 data-i18n="cases.card3.title">青钱柳产品落地</h3>
           <p data-i18n="cases.card3.text">应用于血糖管理类草本产品与成人乳粉，为糖脂管理配方提供差异化卖点。</p>
         </article>
@@ -411,6 +489,10 @@
             <span class="contact-name" data-i18n="footer.name2">胡先生</span>
             <a class="contact-phone" href="tel:13794376845">137 9437 6845</a>
           </div>
+          <div class="contact-item contact-item--landline">
+            <span class="contact-role" data-i18n="footer.role3">公司总机</span>
+            <a class="contact-phone" href="tel:+862038828529" data-i18n="footer.name3">020-38828529</a>
+          </div>
           <div class="contact-item contact-item--address">
             <span class="contact-role" data-i18n="footer.address">地址</span>
             <span class="contact-address">广东省广州市海珠区新港东路1166号<br>环汇商业广场-南塔6楼</span>
@@ -423,6 +505,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=20260609"></script>
+  <script src="script.js?v=20260714b"></script>
 </body>
 </html>

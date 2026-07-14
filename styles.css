@@ -526,12 +526,45 @@ dd { margin: 4px 0 0; color: var(--muted); }
 
 .experts {
   display: grid;
-  grid-template-columns: .7fr 1.3fr;
-  gap: clamp(28px, 5vw, 72px);
+  grid-template-columns: 1fr;
+  gap: clamp(28px, 4vw, 40px);
   align-items: start;
   background:
     linear-gradient(90deg, color-mix(in srgb, var(--surface-2) 86%, transparent), transparent),
     var(--bg);
+}
+
+.experts .expert-copy {
+  max-width: 920px;
+}
+
+.expert-role {
+  margin: 0 0 6px;
+  color: var(--accent-2);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: none;
+}
+
+.expert-avatar--initial {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 140px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  margin-bottom: 18px;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(91,215,164,.25), transparent 55%),
+    var(--surface-2);
+  color: var(--accent);
+  font-size: 42px;
+  font-weight: 900;
+  font-family: "Cormorant Garamond", "PingFang SC", serif;
+  line-height: 1;
 }
 
 .platform {
@@ -640,18 +673,31 @@ dd { margin: 4px 0 0; color: var(--muted); }
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.expert-list--wide {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .expert-list article {
   min-height: 280px;
   padding: 24px;
 }
 
+.expert-list--wide article {
+  min-height: 0;
+}
+
 .expert-list span {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   color: var(--accent);
-  font-size: 68px;
+  font-size: 42px;
   font-weight: 900;
   line-height: 1;
+}
+
+.expert-list--wide span {
+  font-size: 32px;
+  margin-bottom: 12px;
 }
 
 .expert-avatar {
@@ -966,6 +1012,9 @@ dd { margin: 4px 0 0; color: var(--muted); }
   .data-band, .experts, .enzyme {
     grid-template-columns: 1fr;
   }
+  .expert-list--wide {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .product-grid, .expert-list, .case-grid, .contact-list, .platform-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1105,7 +1154,7 @@ dd { margin: 4px 0 0; color: var(--muted); }
   h1 { font-size: 28px; }
   h2 { font-size: 24px; }
   .lead { font-size: 16px; }
-  .data-list, .product-grid, .expert-list, .solution-grid, .case-grid, .contact-list, .platform-grid, .enzyme-flow {
+  .data-list, .product-grid, .expert-list, .expert-list--wide, .solution-grid, .case-grid, .contact-list, .platform-grid, .enzyme-flow {
     grid-template-columns: 1fr;
   }
   .footer-inner {

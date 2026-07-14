@@ -62,7 +62,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260714b"></link>
+  <link rel="stylesheet" href="styles.css?v=20260714c"></link>
 </head>
 <body data-lang="zh">
   <header class="site-header">
@@ -289,11 +289,11 @@
     </section>
 
     <!-- ⑤ EXPERTS -->
-    <section class="experts">
+    <section class="experts" id="experts">
       <div class="expert-copy">
         <p class="section-kicker" data-i18n="experts.kicker">Research Team</p>
         <h2 data-i18n="experts.title">科研团队与产学研平台</h2>
-        <p data-i18n="experts.text">由食品、生物信息学、茶叶深加工、微生态、酶工程及产业转化专家共同构成技术背书，联合科研机构与生物技术伙伴推动多学科交叉创新。</p>
+        <p data-i18n="experts.text">汇聚食品、生物信息学、茶叶深加工、微生态与高性能酶工程力量：天颐核心科学家与智演生合/中山大学酶平台领军专家协同，联合高校与生物技术伙伴推动从原料到生物制造的交叉创新。</p>
         <div class="partner-logos">
           <p class="partner-label" data-i18n="experts.partners.label">联合科研与技术伙伴</p>
           <ul class="partner-list">
@@ -303,21 +303,52 @@
             <li data-i18n="experts.partner4">慕恩生物</li>
             <li data-i18n="experts.partner5">美格基因</li>
             <li data-i18n="experts.partner6">智演生合</li>
+            <li data-i18n="experts.partner7">中山大学</li>
           </ul>
         </div>
       </div>
-      <div class="expert-list">
+      <div class="expert-list expert-list--wide">
         <article>
           <span>01</span>
           <img class="expert-avatar" src="assets/expert-liusuchun.webp?v=20260613" alt="刘素纯教授" loading="lazy">
+          <p class="expert-role" data-i18n="experts.card1.role">天颐 · 首席创始人科学家</p>
           <h3 data-i18n="experts.card1.title">刘素纯教授</h3>
-          <p data-i18n="experts.card1.text">首席创始人科学家，国家规划教材《生物信息学》主编，具备科研与产业转化经验。</p>
+          <p data-i18n="experts.card1.text">国家规划教材《生物信息学》主编，长期从事科研组织与产业转化，领衔天颐科技功能食品与平台能力建设。</p>
         </article>
         <article>
           <span>02</span>
           <img class="expert-avatar" src="assets/expert-zhangyousheng.webp?v=20260613" alt="张友胜博士" loading="lazy">
+          <p class="expert-role" data-i18n="experts.card2.role">天颐 · 藤茶首席科学家</p>
           <h3 data-i18n="experts.card2.title">张友胜博士</h3>
-          <p data-i18n="experts.card2.text">中国藤茶现代化研究奠基人，为藤茶提取物研发提供关键技术支撑。</p>
+          <p data-i18n="experts.card2.text">中国藤茶现代化研究奠基人，出版《藤茶学》等专著，为藤茶提取物与二氢杨梅素方向提供关键技术支撑。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <div class="expert-avatar expert-avatar--initial" aria-hidden="true">束</div>
+          <p class="expert-role" data-i18n="experts.card3.role">酶平台 · 项目负责人</p>
+          <h3 data-i18n="experts.card3.title">束文圣 教授</h3>
+          <p data-i18n="experts.card3.text">美格基因创始人、董事长；华南师范大学教授，珠江学者、国家万人计划领军人才。长期深耕微生物组与合成生物学产业化，SCI 论文 200 余篇，H-index≈70。</p>
+        </article>
+        <article>
+          <span>04</span>
+          <div class="expert-avatar expert-avatar--initial" aria-hidden="true">杨</div>
+          <p class="expert-role" data-i18n="experts.card4.role">酶平台 · 首席科学家</p>
+          <h3 data-i18n="experts.card4.title">杨跃东 教授</h3>
+          <p data-i18n="experts.card4.text">中山大学计算机学院教授、国家超算广州中心总工程师、国家级人才。主攻 AI 蛋白质设计与生物医药超算，论文 200 余篇，H-index≈70，成果应用于多家药企管线。</p>
+        </article>
+        <article>
+          <span>05</span>
+          <div class="expert-avatar expert-avatar--initial" aria-hidden="true">刘</div>
+          <p class="expert-role" data-i18n="experts.card5.role">酶平台 · 科学顾问</p>
+          <h3 data-i18n="experts.card5.title">刘建忠 教授</h3>
+          <p data-i18n="experts.card5.text">中山大学生命科学学院教授，国家自然科学二等奖获得者。国内代谢工程与合成生物学先驱之一，构建多项国际领先的微生物细胞工厂与育种平台。</p>
+        </article>
+        <article>
+          <span>06</span>
+          <div class="expert-avatar expert-avatar--initial" aria-hidden="true">黎</div>
+          <p class="expert-role" data-i18n="experts.card6.role">酶平台 · 科学顾问</p>
+          <h3 data-i18n="experts.card6.title">刘黎 副教授</h3>
+          <p data-i18n="experts.card6.text">中山大学生命科学学院副教授、博导。主导 SMALT 高效突变系统与基因型—表型网络研究，成果发表于 Nature Methods、National Science Review 等。</p>
         </article>
       </div>
     </section>
@@ -505,6 +536,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=20260714b"></script>
+  <script src="script.js?v=20260714c"></script>
 </body>
 </html>
